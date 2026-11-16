@@ -1,0 +1,6 @@
+appId: com.statedemo
+---
+- launchApp
+- assertVisible: "Sort: ID ↑"
+- tapOn: "Sort: ID ↑"
+- assertVisible: "Sort: ID ↓"
