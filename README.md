@@ -95,3 +95,10 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+## Tests
+yarn test                         # Jest + React Native Testing Library (store + screen)
+maestro test .maestro/sort.yaml   # E2E on a running emulator/device
+
+Note: some Xiaomi devices block Maestro taps unless a SIM and Mi account enable
+"USB debugging (Security settings)". An emulator avoids this.
